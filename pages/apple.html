@@ -9,152 +9,186 @@
     <link rel="stylesheet" href="../css/main.css">
     <!-- iconos -->
     <script src="https://kit.fontawesome.com/4259d3dbcf.js" crossorigin="anonymous"></script>
-    <title>Apple</title>
+    <title>Apple-Elektra Store</title>
+    <meta name="description" content="Explora los productos Apple en Elektra. Ofrecemos una variedad de iPhones, iPads, y MacBooks, desde el iPhone SE hasta el MacBook Pro. Compra tecnología de alta calidad a precios competitivos.">
+    <meta name="keywords" content="Apple, iPhone, iPad, MacBook, iPhone SE, iPhone 11, iPhone 13, iPhone 15, iPad Air, iPad Mini, MacBook Pro, tecnología, Elektra Store">
 </head>
 <body>
-
     <header>
         <!-- menu navegacion -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-                <img src="../img/logo.png" alt="logo" width="150px"></a>
+                <img src="../img/Logo.png" alt="logo" width="150px"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="../pages/productos.html">Productos</a>
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/equipos armados.html">Equipos Armados</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../pages/notebooks.html">Notebooks</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../pages/consolas.html">Consolas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../pages/apple.html">Apple</a></li>
+                    </ul>
+                  </li>
                   <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                   <a class="nav-link" href="#footerid">Pie de pagina</a>
                 </div>
               </div>
             </div>
           </nav>
+
+          <div>
+            <h1> Bienvenido  a tu nueva casa de tecnologia</h1>
+          </div>
+          <br>
+          <!-- button -->
+           <div class="container-btncompo">
+            <a href="../pages/componentes.html" class="btn btn-primary">Arma tu pc con nosotros!</a>
+           </div>
+           <br>
     </header>
 
-        <!-- main apple -->
-        <main>
-            <!-- cards -->
-              <h3>iPhone</h3>
-              <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/iPhoneSE.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">iPhone SE</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/iPhone11.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">iPhone 11</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/iPhone13.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">iPhone 13</h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/iPhone15.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">iPhone 15</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <!-- main equipos armados -->
 
-              <h3>iPad</h3>
-              <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/iPad.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">iPad</h5>
+        <!-- main productos -->
+        <main class="main-items">
+          <section class="products">
+            <h2>iPhone</h2>
+            <div class="all-products">
+                <div class="product">
+                    <img src="../img/iPhoneSE.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPhone SE
+                        </h4>
+                        <p class="product-price">US$330</p>
+                        <a class="product-btn" href="#">Comprar</a>
                     </div>
-                  </div>
                 </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/iPadair.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">iPad Air</h5>
+                <div class="product">
+                    <img src="../img/iPhone11.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPhone 11
+                        </h4>
+                        <p class="product-price">US$499</p>
+                        <a class="product-btn" href="#">Comprar</a>
                     </div>
-                  </div>
                 </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/iPadmini.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">iPad Mini</h5>
+                <div class="product">
+                    <img src="../img/iPhone13.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPhone 13
+                        </h4>
+                        <p class="product-price">US$679</p>
+                        <a class="product-btn" href="#">Comprar</a>
                     </div>
-                  </div>
                 </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/iPadPro.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">iPad PRO</h5>
+                <div class="product">
+                    <img src="../img/iPhone15.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPhone 15
+                        </h4>
+                        <p class="product-price">US$1249</p>
+                        <a class="product-btn" href="#">Comprar</a>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
+            <h2>iPad</h2>
+            <div class="all-products">
+                <div class="product">
+                    <img src="../img/iPad.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPad
+                        </h4>
+                        <p class="product-price">US$361</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="../img/iPadair.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPad Air
+                        </h4>
+                        <p class="product-price">US$950</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="../img/iPadmini.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPad Mini
+                        </h4>
+                        <p class="product-price">US$797</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="../img/iPadPro.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPad Pro
+                        </h4>
+                        <p class="product-price">US$1180</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <h2>Mac</h2>
+            <div class="all-products">
+                <div class="product">
+                    <img src="../img/macbookair.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> MacBook Air
+                        </h4>
+                        <p class="product-price">US$1299</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="../img/Macbookpro.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> MacBook Pro
+                        </h4>
+                        <p class="product-price">US$4429</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
+            </div>
+      </main>
 
-              <h3>Mac</h3>
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/macbookair.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Macbook Air</h5>
 
-                    </div>
-                  </div>
+    <!-- footer equipos armados -->
+    <footer class="pie-pagina" id="footerid">
+        <div class="grupo-1">
+            <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>En Elektra Store, somos una tienda emergente dedicada a ofrecer lo último en tecnología y electrónica. Nuestro compromiso es proporcionar productos de alta calidad, como equipos armados, dispositivos Apple, notebooks y consolas, siempre a precios competitivos. Nos apasiona la innovación y el servicio al cliente, asegurándonos de que cada compra sea una experiencia única. ¡Te invitamos a formar parte de nuestra comunidad tecnológica y a descubrir todo lo que tenemos para ofrecerte!</p>
+            </div>
+            <div class="box">
+                <h2>IMPUESTOS</h2>
+                <p>Todos los precios están expresados en dolares americanos e incluyen impuestos</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://x.com/" target="_blank" class="fa fa-x"></a>
+                    <a href="https://www.youtube.com/watch?v=E4WlUXrJgy4" target="_blank" class="fa fa-youtube"></a>
                 </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="../img/Macbookpro.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Macbook PRO</h5>
-                    </div>
-                  </div>
-                </div>     
-        </main>
-
-        <!-- footer apple -->
-        <footer class="pie-pagina" id="footerid">
-          <div class="grupo-1">
-              <div class="box">
-              <h2>SOBRE NOSOTROS</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ducimus, dolor explicabo tempora quod in architecto ex necessitatibus nemo sapiente blanditiis ratione! Reprehenderit ratione culpa dolorum sed voluptatem, id suscipit.</p>
-              </div>
-              <div class="box">
-                  <h2>IMPUESTOS</h2>
-                  <p>Todos los precios están expresados en dolares americanos e incluyen impuestos</p>
-              </div>
-              <div class="box">
-                  <h2>SIGUENOS</h2>
-                  <div class="red-social">
-                      <a href="#"  class="fa fa-instagram"></a>
-                      <a href="#" class="fa fa-x"></a>
-                      <a href="#" class="fa fa-youtube"></a>
-                  </div>
-              </div>
-          </div>
-          <div class="grupo-2">
-              <small>&copy; 2024 <b>Elektra Store</b> - Todos los Derechos Reservados.</small>
-          </div>
-      </footer>
-    <!-- js -->
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>Elektra Store</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-</html>

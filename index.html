@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="css/main.css">
     <!-- iconos -->
     <script src="https://kit.fontawesome.com/4259d3dbcf.js" crossorigin="anonymous"></script>
-    <title>Elektra</title>
+    <title>Home-Elektra Store</title>
+    <meta name="description" content="Explora Elektra Store, la tienda de tecnología con las mejores ofertas en equipos armados, notebooks, consolas y productos Apple. ¡Arma tu PC a medida y aprovecha descuentos exclusivos!">
+    <meta name="keywords" content="Elektra Store, tecnología, equipos armados, notebooks, consolas, Apple, productos tecnológicos, ofertas, PCs, gaming, computadoras, tienda de tecnología">
 </head>
 <body>
 
     <header>
         <!-- menu navegacion -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">
                 <img src="img/logo.png" alt="logo" width="150px"></a>
@@ -24,28 +26,42 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="pages/productos.html">Productos</a>
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/equipos armados.html">Equipos Armados</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="pages/notebooks.html">Notebooks</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="pages/consolas.html">Consolas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="pages/apple.html">Apple</a></li>
+                    </ul>
+                  </li>
                   <a class="nav-link" href="pages/contacto.html">Contacto</a>
                   <a class="nav-link" href="#footerid">Pie de pagina</a>
                 </div>
               </div>
             </div>
           </nav>
+
           <div>
-            <h1> Bienvenido  a tu nueva casa de tecnologia</h1>
+            <h1> Bienvenido  a tu nueva casa de tecnología!</h1>
           </div>
           <br>
           <!-- button -->
            <div class="container-btncompo">
-            <a href="pages/componentes.html" class="btn-compo">Arma tu pc con nosotros!</a>
+            <a href="pages/componentes.html" class="btn btn-primary">Arma tu pc con nosotros!</a>
            </div>
            <br>
     </header>
     <!-- main index -->
     <main> 
         <!-- carrousel -->
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="carousel slide hero">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -53,13 +69,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/Reparaciones.png" class="d-block w-100" alt="...">
+                <img src="img/Bienvenidos.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/robot-i5.png" class="d-block w-100" alt="...">
+                <img src="img/Robot-Intel.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="img/diseñopagweb.png" class="d-block w-100" alt="...">
+                <img src="img/Servicios.png" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -71,41 +87,48 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
           <br>
-
-        <!-- productos -->
-    
-        <div class="container-cards">
-            <div class="box-img">
-                <a href="pages/productos.html">
-                    <img src="img/Equipos-Armados.png" alt="">
-                </a> 
+        <!-- destacados del mes -->
+         <div class="main-items">
+          <section class="products">
+            <h2 class="diseñoh2">Destacados del Mes!</h2>
+            <div class="all-products">
+                <div class="product">
+                    <img src="img/iPhone13.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> iPhone 13
+                        </h4>
+                        <p class="product-price">US$679</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/Equipo-Intel-Core-I5-10400f-Pro-Gamer-16gb–SSD–RX6400.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> Equipo Intel Core I5 10400f Pro Gamer - 16Gb - SSD - RX 6400.
+                        </h4>
+                        <p class="product-price">US$1625</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/NintendoSwitch.png" alt="">
+                    <div class="product-info">
+                        <h4 class="product-title"> Nintendo Switch
+                        </h4>
+                        <p class="product-price">US$458</p>
+                        <a class="product-btn" href="#">Comprar</a>
+                    </div>
+                </div>
             </div>
-            <div class="box-img">
-                <a href="pages/apple.html">
-                    <img src="img/notebook.png" alt="">
-                </a>  
-            </div>
-            <div class="box-img">
-                <a href="pages/productos.html">
-                    <img src="img/consolas.png" alt="">
-                </a>
-            </div>
-            <div class="box-img">
-                <a href="pages/apple.html">
-                    <img src="img/apple.png" alt="">
-                </a>
-            </div>
-        </div>
+         </div>
     </main>
-
         <!-- footer index -->
         <footer class="pie-pagina" id="footerid">
             <div class="grupo-1">
                 <div class="box">
                 <h2>SOBRE NOSOTROS</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ducimus, dolor explicabo tempora quod in architecto ex necessitatibus nemo sapiente blanditiis ratione! Reprehenderit ratione culpa dolorum sed voluptatem, id suscipit.</p>
+                <p>En Elektra Store, somos una tienda emergente dedicada a ofrecer lo último en tecnología y electrónica. Nuestro compromiso es proporcionar productos de alta calidad, como equipos armados, dispositivos Apple, notebooks y consolas, siempre a precios competitivos. Nos apasiona la innovación y el servicio al cliente, asegurándonos de que cada compra sea una experiencia única. ¡Te invitamos a formar parte de nuestra comunidad tecnológica y a descubrir todo lo que tenemos para ofrecerte!</p>
                 </div>
                 <div class="box">
                     <h2>IMPUESTOS</h2>

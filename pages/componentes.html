@@ -9,148 +9,180 @@
     <link rel="stylesheet" href="../css/main.css">
     <!-- iconos -->
     <script src="https://kit.fontawesome.com/4259d3dbcf.js" crossorigin="anonymous"></script>
-    <title>Componentes</title>
+    <title>Componentes-Elektra Store</title>
+    <meta name="description" content="Encuentra los mejores componentes para armar tu PC en Elektra. Ofrecemos procesadores AMD e Intel, y equipos Pro Gamer con gráficos de alto rendimiento. Compra tecnología de calidad a precios competitivos.">
+    <meta name="keywords" content="componentes, PC, procesadores, AMD, Intel, Pro Gamer, equipos, tecnología, gráficos, GTX 1650, RX 6400, Elektra Store">
 </head>
 <body>
-
-    <header>
-        <!-- menu navegacion -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
-                <img src="../img/logo.png" alt="logo" width="150px"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                  <a class="nav-link" href="../pages/productos.html">Productos</a>
-                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                  <a class="nav-link" href="#footerid">Pie de pagina</a>
-                </div>
-              </div>
+  <header>
+    <!-- menu navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/Logo.png" alt="logo" width="150px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../pages/equipos armados.html">Equipos Armados</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../pages/notebooks.html">Notebooks</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../pages/consolas.html">Consolas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../pages/apple.html">Apple</a></li>
+                </ul>
+              </li>
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              <a class="nav-link" href="#footerid">Pie de pagina</a>
             </div>
-          </nav>
-    </header>
-
+          </div>
+        </div>
+      </nav>
+      <div>
+        <h1> Bienvenido  a tu nueva casa de tecnologia!</h1>
+      </div>
+      <br>
+      <!-- button -->
+       <div class="container-btncompo">
+        <a href="../pages/" class="btn btn-primary">Arma tu pc con nosotros!</a>
+       </div>
+       <br>
+</header>
     <!-- main productos -->
-    <main>
-      <!-- cards -->
-        <h3>Procesadores</h3>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="card">
-              <img src="../img/i5-14400.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Intel Core i5 14400</h5>
+    <main class="main-items">
+        <section class="products">
+          <h2>Procesadores</h2>
+          <div class="all-products">
+              <div class="product">
+                  <img src="../img/i5-14400.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> Intel Core I5-14400
+                      </h4>
+                      <p class="product-price">US$371</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/i7-12700.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Intel Core i7 12700</h5>
+              <div class="product">
+                  <img src="../img/i7-12700.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> Intel Core I7-12700K
+                      </h4>
+                      <p class="product-price">US$453</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/R77800X.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Ryzen 7 7800X</h5>
+              <div class="product">
+                  <img src="../img/R5-7600.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> AMD Ryzen 5 7600X
+                      </h4>
+                      <p class="product-price">US$354</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/R5-7600.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Ryzen 5 7600</h5>
+              <div class="product">
+                  <img src="../img/R7-5800XT.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> Amd Ryzen 7 5800xt
+                      </h4>
+                      <p class="product-price">US$349</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-
-        <h3>Motherboards</h3>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="card">
-              <img src="../img/ASUS-PRIME-H510M (2).png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">ASUS PRIME H510M</h5>
+          <h2>Motherboards</h2>
+          <div class="all-products">
+              <div class="product">
+                  <img src="../img/A320-A-PRO.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> MSI A320 A PRO
+                      </h4>
+                      <p class="product-price">US$76</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/A320-A-PRO.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">MSI A320 A PRO</h5>
+              <div class="product">
+                  <img src="../img/ASUS-PRIME-H510M (2).png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> Mother Asus Prime H510M
+                      </h4>
+                      <p class="product-price">US$90</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/Gigabyte-h610m.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Gigabyte H610M</h5>
+              <div class="product">
+                  <img src="../img/Gigabyte-h610m.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> Mother Gigabyte H610M
+                      </h4>
+                      <p class="product-price">US$119</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/MSI-PRO-B550M-P-GEN3.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">MSI PRO B550M P GEN3</h5>
+              <div class="product">
+                  <img src="../img/MSI-PRO-B550M-P-GEN3.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title">MSI PRO B550M P GEN3
+                      </h4>
+                      <p class="product-price">US$120</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-
-        <h3>Motherboards</h3>
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="card">
-              <img src="../img/3050.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Nvidia GeForce 3050</h5>
+          <h2>Tarjetas Gráficas</h2>
+          <div class="all-products">
+              <div class="product">
+                  <img src="../img/3050.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> Gigabyte GeForce RTX3050 8Gb
+                      </h4>
+                      <p class="product-price">US$375</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/4060.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Nvidia GeForce 4060</h5>
+              <div class="product">
+                  <img src="../img/4060.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> MSI GeForce RTX 4060 8Gb
+                      </h4>
+                      <p class="product-price">US$455</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/RX6600XT.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Radeon RX 660XT</h5>
+              <div class="product">
+                  <img src="../img/RX6600XT.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> GIGABYTE AMD Radeon RX6600 GDDR6 8 GB
+                      </h4>
+                      <p class="product-price">US$379</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="../img/RX6700XT.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Radeon RX 6700XT</h5>
+              <div class="product">
+                  <img src="../img/RX6700XT.png" alt="">
+                  <div class="product-info">
+                      <h4 class="product-title"> Gigabyte AMD RX 6700 XT 12 GB 
+                      </h4>
+                      <p class="product-price">US$400</p>
+                      <a class="product-btn" href="#">Comprar</a>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
-  </main>
+    </main>
         <!-- footer productos -->
         <footer class="pie-pagina" id="footerid">
           <div class="grupo-1">
               <div class="box">
               <h2>SOBRE NOSOTROS</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ducimus, dolor explicabo tempora quod in architecto ex necessitatibus nemo sapiente blanditiis ratione! Reprehenderit ratione culpa dolorum sed voluptatem, id suscipit.</p>
+              <p>En Elektra Store, somos una tienda emergente dedicada a ofrecer lo último en tecnología y electrónica. Nuestro compromiso es proporcionar productos de alta calidad, como equipos armados, dispositivos Apple, notebooks y consolas, siempre a precios competitivos. Nos apasiona la innovación y el servicio al cliente, asegurándonos de que cada compra sea una experiencia única. ¡Te invitamos a formar parte de nuestra comunidad tecnológica y a descubrir todo lo que tenemos para ofrecerte!</p>
               </div>
               <div class="box">
                   <h2>IMPUESTOS</h2>
@@ -159,9 +191,9 @@
               <div class="box">
                   <h2>SIGUENOS</h2>
                   <div class="red-social">
-                      <a href="#" class="fa fa-instagram"></a>
-                      <a href="#" class="fa fa-x"></a>
-                      <a href="#" class="fa fa-youtube"></a>
+                      <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                      <a href="https://x.com/" target="_blank" class="fa fa-x"></a>
+                      <a href="https://www.youtube.com/watch?v=E4WlUXrJgy4" target="_blank" class="fa fa-youtube"></a>
                   </div>
               </div>
           </div>

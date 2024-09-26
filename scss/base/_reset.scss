@@ -1,0 +1,21 @@
+
+//import variables
+@import "../utilidades/variables";
+
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*main general*/
+
+  main {
+    background-color: $color-secundario;
+    padding: 0px;
+  }
+
+  main h3 {
+    color: $color-terciario;
+  }
