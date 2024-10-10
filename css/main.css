@@ -18,10 +18,18 @@ main h3 {
 /*carousel*/
 .hero {
   height: 100%;
+  height: 650px;
+  padding: 20px;
 }
 
 .hero img {
   height: 100%;
+  height: 650px;
+  padding: 20px;
+}
+
+h1 {
+  color: #FFFFFF;
 }
 
 /*Footer*/
@@ -65,7 +73,7 @@ main h3 {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  color: white;
+  color: #FFFFFF;
   margin-right: 10px;
   background-color: #113771;
   text-align: center;
